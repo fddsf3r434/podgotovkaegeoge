@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap');*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.global-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 1310px;
+}
+.container-head{
+    align-items: center;
+}
+.flex-justify{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.column{
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+    /* align-items: center; */
+}
+.align-center{
+    align-items: center;
+}
+.align-base{
+    align-items: baseline;
+}
+.base-justify{
+    justify-content: baseline;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .header-container{
+    display: flex;
+} */
+.cover-global{
+    margin-top: 30px;
+    padding: 0 0 100px 0;
+}
+.menu p{
+    margin: 0 0 0 30px;
+    font-weight: 400;
+    font-size: 26px;
+}
+.cover-text{
+    background-image: url("./img/Group\ 259.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 28px;
+    width: 623px;
+    height: 566px;
+}
+.cover-image{
+    width: 678px;
+    height: 271px;
+    margin: 0 9px 0 0;
+    margin-bottom: 100px;
+}
+.button-cover{
+    width: 391px;
+    height: 60px;
+    border-radius: 20px;
+    background: none;
+    margin-top: 30px;
+}
+.check-div p{
+    width: 470px;
+}
+.check-div div{
+    margin: 17px 0;
+}
+.check-div div:last-child, .check-div div:first-child{
+    margin: 0;
+}
+.advantages-global{
+    background: url("./img/Group\ 260.png");
+    background-size: cover;
+    padding: 50px 0;
+}
+.advantages-cards{
+    flex-wrap: wrap;
+}
+.advantages-card{
+    background-color: #fff;
+    border: #6F3DFF solid 1px;
+    border-radius: 20px;
+    height: 165px;
+    margin: 7px;
+    padding: 20px;
+}
+.control{
+    width: 420px;
+}
+.teather{
+    width: 410px;
+}
+.grafic{
+    width: 300px;
+}
+.individual{
+    width: 590px;
+}
+.student{
+    width: 590px;
+}
+.mini-h{
+    font-size: 26px;
+    font-weight: 900px;
+    font-style: normal;
+}
+.card-text{
+    font-size: 26px;
+}
+h2, h3, h4 ,h1 , .upper{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.purple{
+    color: #6F3DFF;
+}
+.advantages-global{
+    margin-top: 80;
+    margin-bottom: 80px;
+}
+.advantages-global h3{
+    margin-bottom: 20px;
+}
+.advantages-global h2{
+    margin-bottom: 40px;
+}
+.lesson-card{
+    height: 191px;
+    width: 783px;
+    border: black solid 1px;
+    border-radius: 20px;
+    margin: 0 0 15px 0;
+    display: flex;
+    align-items: center;
+}
+.p-first-card-lesson{
+    margin: 0 20px;
+}
+.p-card-lesson{
+    margin: 70px;
+}
+.first-lesson-card{
+    margin: 20px 0;
+}
+.lesson-first-name{
+    color: #6F3DFF;
+    font-size: 16px;
+    margin: 20px 0;
+}
+.lesson-last-name{
+    font-size: 48px;
+    width: 100px;
+}
+/* .lesson-content p:first-child{
+    margin: 0 10px;
+} */
+.runString{
+    background-color: #6F3DFF;
+    padding: 30px 30px;
+    color: aliceblue;
+    font-size: 32px;
+}
+marquee{
+    display: flex;
+    align-items: center;
+}
+
+.img-run{
+    padding-left: 30px;
+    margin-right: 30px;
+}
+.global-discount{
+    margin: 85px 0;
+}
+.discount-container{
+    width: 1280px;
+    height: 403px;
+    background-image: url("./img/Group\ 261.png");
+    background-size: cover;
+}
+.discount-text{
+    width: 596px;
+    height: 403px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    margin: 0 70px 0 70px;
+}
+.discount-button-div{
+    width: 445px;
+    height: 403px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 70px 0 70px;
+    text-decoration: none;
+
+}
+.discount-button-div a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 24px;
+
+}
+.discount-button{
+    width: 187px;
+    height: 60px;
+    border-radius: 16px;
+    background: #fff;
+    border: #6F3DFF solid;
+    margin-top: 30px;
+}
+.heart-div{
+    position: absolute;
+}
+.heart-discount{
+    position: relative;
+    left: 270px;
+    bottom: 200px;
+}
+.about-last-name{
+    font-size: 42px;
+    width: 500px;
+}
+.about-card{
+    height: 242px;
+    width: 601px;
+    border: black solid 1px;
+    border-radius: 20px;
+    margin: 0 0 15px 0;
+    background: #F7FAFF;
+}
+.about-card-content{
+    margin: 0 50px;
+}
+.about-card-content h3{
+    margin-bottom: 10px;
+}
+.absolute{
+    position: absolute;
+}
+.rignt-arrow{
+    position: relative;
+    bottom: 150px;
+    right: 100px;
+}
+.left-arrow{
+    position: relative;
+    bottom: 190px;
+    left: 610px;
+}
+.yelloy{
+    color: #FFD747;
+}
+.score-card{
+    height: 281px;
+    width: 624px;
+    border: #FFD747 solid 1px;
+    border-radius: 40px;
+    /* margin: 0 0 15px 0; */
+    background: #fff;
+}
+.score-card div{
+    margin: 0 40px;
+}
+.score-card h3{
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.score-card p{
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #000;
+}
+.global-score{
+    background-color: #6F3DFF;
+    padding: 40px 0;
+}
+.global-college{
+    margin: 50px 0;
+}
+.global-college h2{
+    margin: 0 0 30px 0;
+    font-weight: 900;
+    font-size: 48px;
+}
+.college-card-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.college-card{
+    height: 250px;
+    width: 278px;
+    border: #6F3DFF 1px solid;
+    border-radius: 17px;
+    margin: 19px;
+}
+.global-team{
+    margin: 50px 0;
+}
+.team-container h3{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 0 20px 0;
+}
+.team-container h2{
+    font-weight: 900;
+    font-size: 48px;
+    margin: 20px 0 25px 0;
+}
+.team-p{
+    font-weight: 400;
+    font-size: 36px;
+    margin: 26px 0 34px 0;
+}
+.team-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+.team-card{
+    height: 527px;
+    width: 400px;
+    border: #000 solid 1px;
+    border-radius: 20px;
+    margin: 0 15px;
+    background: #fff;
+}
+.team-card div{
+    margin: 20px;
+}
+.team-card img{
+    margin: 0 0 10px 0;
+    width: 360px;
+}
+.team-card p{
+    margin: 0 0 20px 0;
+}
+.name{
+    font-weight: 500;
+    font-size: 32px;
+}
+.year{
+    font-weight: 400;
+    font-size: 24px;
+    color: #707070;
+}
+.team-info{
+    font-weight: 400;
+    font-size: 26px;
+}
+.sale-card{
+    height: 332px;
+    width: 614px;
+    border: #6F3DFF solid 1px;
+    border-radius: 20px;
+    margin: 17px;
+    background: none;
+}
+.sale-card-content{
+    margin: 0 50px;
+}
+.sale-card-content p{
+    font-weight: 400;
+    font-size: 26px;
+    margin: 0 0 20px 0;
+}
+.sale-card-content p:last-child{
+    font-weight: 400;
+    font-size: 26px;
+    margin: 0 0 0 0;
+}
+.sale-card-content h3{
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.sale{
+    background-color: #6F3DFF;
+    border-radius: 44px;
+    color: #fff;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 28px;
+}
+.global-reviews{
+    background-image: url("./img/izivy-bg.png");
+    background-size: cover;
+    padding: 50px 0;
+}
+.reviews-container p, h2, h3{
+    margin: 20px 0;
+}
+.reviews-card{
+    background: #fff;
+    border: #000 solid 1px;
+    width: 633px;
+    height: 270px;
+    padding:  10px 20px;
+    border-radius: 17px;
+    margin: 5px 15px;
+}
+.reviews-card img{
+    width: 125px;
+    height: 130px;
+    margin: 0 20px 0 0;
+}
+.reviews-card p{
+    margin: 10px 0;
+}
+.global-form{
+    margin: 80px 0;
+}
+.form-content{
+    width: 700px;
+}
+.form-content h2{
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0 0 30px 0;
+}
+.form-content div{
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0 0 20px 0;
+}
+.form-div{
+    border: solid 1px black;
+    width: 494px;
+    height: 342px;
+    border-radius: 40px;
+    background-image: url(./img/Group\ 262.jpg);
+    background-size: cover;
+}
+.form-input{
+    border-radius: 17px;
+    width: 323px;
+    height: 31px;
+    margin: 10px 0;
+    padding: 10px;
+}
+.submit-input{
+    width: 188px;
+    height: 60px;
+    border-radius: 16px;
+    margin: 30px 0 0 0;
+    border: #6F3DFF solid 1px;
+    font-weight: 500;
+    font-size: 24px;
+    background: none;
+}
+.footer-global{
+    padding: 30px 0;
+    background-color: #6F3DFF;
+}
+footer p{
+    font-weight: 400;
+    font-size: 26px;
+    margin: 0 0 10px 0;
+    color: #fff;
+}
+.footer-button{
+    border-radius: 17px;
+    width: 188px;
+    height: 60px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: #000 solid 1px;
+}
+.footer-button p{
+    color: #000;
+}
+footer .flex img{
+    margin: 0 10px 0 0;
+}

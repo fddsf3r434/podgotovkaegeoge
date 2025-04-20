@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+body{
+    margin: 0%;
+}
+
+p{
+    margin: 0;
+}
+.content{
+    width: 1280px;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+header{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding-bottom: 20px;
+}
+
+.menu-ul{
+    list-style: none;
+    display: flex;
+    font-size: 26px;
+}
+li{
+    padding-left: 30px;
+}
+
+.info-on-cover-page{
+    background-image: url(image/Group\ 258.png);
+    width: 623px ;
+    height: 566px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.content-info-on-cover-page{
+ 
+    display: flex;
+    
+    flex-direction: column;
+
+}
+.cover-page{
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    align-items: center;
+}
+
+.one-string-info-on-cover-page{
+    display: flex;
+    align-items: center;
+    width: 420px;
+    margin:  auto ;
+padding-top: 10px;
+   
+}
+.txt-one-string-info-on-cover-page{
+    margin: 0;
+    line-height: 33px;
+}
+
+.sign-up-for-a-trial-lesson{
+    font-size: 24px;
+    text-align: center;
+    width: 391px;
+    height: 60px;
+    margin: auto;
+    box-shadow: #6F3DFF 7px 7px;
+    border-radius: 20px;
+    border: 1px solid #6F3DFF;
+    margin-top: 20px;
+}
+
+.block-about-advantages{
+  background-color: #FFC700;
+    width: 100%;
+    height: 629px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.backgroung-figurs{
+    background-image: url(image/Group\ 258\ \(2\).png);
+    background-repeat: no-repeat;
+    height: 629px;
+    width: 1349px;
+    margin: auto;
+}
+
+.smal-txt-up-name{
+    color: #6F3DFF;
+    font-size: 18px;
+}
+.first{
+    margin-top: 80px;
+}
+.name-of-block{
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.line-advantage{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+
+.name-of-one-position-advantages{
+    font-size: 26px;
+
+    font-weight:800;
+}
+.about-one-position-advantages{
+    font-size: 26px;
+}
+
+.one-position-line-advantages,.one-position-second-line-advantages{
+    background-color:  white;
+    border: 1px solid black;
+    box-shadow: 7px 7px #6F3DFF;
+    border-radius: 20px;
+    padding: 20px 40px 20px 40px;
+    align-items: center;
+}
+.Satisfied-students,.Individual-program{
+    padding: 20px 37px 20px 37px;
+}
+.one-position-second-line-advantages{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Quality-control{
+    background-image: url(image/Group.svg);
+    background-repeat: no-repeat;
+    background-position: 220px;
+    background-size: contain;
+}
+
+.runString{
+    background-color: #6F3DFF;
+    padding: 15px 15px;
+    color: aliceblue;
+    font-size: 32px;
+}
+marquee{
+    display: flex;
+    align-items: center;
+}
+
+.img-run{
+    padding-left: 200px;
+    
+}
+
+.block-the-formula-for-success{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.block-info-formula-of-sicces{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.one-position-of-info-block-formula-of-sicces{
+    width: 783px;
+    height: 195px;
+    font-size: 26px;
+    margin-top: 20px;
+    border: 1px solid #252525;
+    align-items: center;
+    display: flex;
+    padding-left: 40px;
+    border-radius: 20px;
+}
+.with-picture{
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    margin-top: 0;
+}
+
+.sale-first-lesson-block{
+    background-image: url(image/Group\ 255\ \(2\).svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1000px;
+    height: 476px;
+    margin: auto;
+}
+
+.sale-first-lesson-block{
+ display: flex;
+ justify-content: space-between;
+ padding:30px 150px 0px 150px ;
+ align-items: center;
+}
+.second-button{
+    width: 188px;
+}
+.txt-about-sale{
+    font-size: 36px;
+}
+
+.big-viol-txt{
+    color: #6F3DFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.number-of-sale{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
